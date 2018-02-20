@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JesSlider.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SliderProgressHybridDelegate>
 
 
 @end

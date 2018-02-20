@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13483C78203174CA007A7297 /* KnobImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13483C74203174CA007A7297 /* KnobImageView.m */; };
+		13483C79203174CA007A7297 /* JesSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 13483C77203174CA007A7297 /* JesSlider.m */; };
 		13E6E744203165CC00476DE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6E743203165CC00476DE3 /* AppDelegate.m */; };
 		13E6E747203165CC00476DE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E6E746203165CC00476DE3 /* ViewController.m */; };
 		13E6E74A203165CC00476DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E6E748203165CC00476DE3 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13483C74203174CA007A7297 /* KnobImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobImageView.m; sourceTree = "<group>"; };
+		13483C75203174CA007A7297 /* JesSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JesSlider.h; sourceTree = "<group>"; };
+		13483C76203174CA007A7297 /* KnobImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobImageView.h; sourceTree = "<group>"; };
+		13483C77203174CA007A7297 /* JesSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JesSlider.m; sourceTree = "<group>"; };
 		13E6E73F203165CC00476DE3 /* SteeIt-custom-component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SteeIt-custom-component.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E6E742203165CC00476DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13E6E743203165CC00476DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13483C73203174A4007A7297 /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				13483C76203174CA007A7297 /* KnobImageView.h */,
+				13483C74203174CA007A7297 /* KnobImageView.m */,
+				13483C75203174CA007A7297 /* JesSlider.h */,
+				13483C77203174CA007A7297 /* JesSlider.m */,
+			);
+			path = slider;
+			sourceTree = "<group>";
+		};
 		13E6E736203165CC00476DE3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		13E6E741203165CC00476DE3 /* SteeIt-custom-component */ = {
 			isa = PBXGroup;
 			children = (
+				13483C73203174A4007A7297 /* slider */,
 				13E6E742203165CC00476DE3 /* AppDelegate.h */,
 				13E6E743203165CC00476DE3 /* AppDelegate.m */,
 				13E6E745203165CC00476DE3 /* ViewController.h */,
@@ -267,6 +285,8 @@
 			files = (
 				13E6E747203165CC00476DE3 /* ViewController.m in Sources */,
 				13E6E752203165CC00476DE3 /* main.m in Sources */,
+				13483C79203174CA007A7297 /* JesSlider.m in Sources */,
+				13483C78203174CA007A7297 /* KnobImageView.m in Sources */,
 				13E6E744203165CC00476DE3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F497D3N3M8;
 				INFOPLIST_FILE = "SteeIt-custom-component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "esjung.SteeIt-custom-component";
@@ -444,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F497D3N3M8;
 				INFOPLIST_FILE = "SteeIt-custom-component/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "esjung.SteeIt-custom-component";
