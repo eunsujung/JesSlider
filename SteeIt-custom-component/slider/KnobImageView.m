@@ -60,7 +60,6 @@
 #pragma mark - private methods
 
 /**
- 델리게이트 nil 체크 후 Knob의 Rect 생성 및 Knob UI 업데이트
  @see updateUi()
  */
 -(void)moveKnob:(NSSet *)touches withEvent:(UIEvent *)event
